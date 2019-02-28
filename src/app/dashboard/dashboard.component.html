@@ -1,0 +1,4 @@
+<div class="wrapper">
+  <app-users-list [users]="userList"></app-users-list>
+  <app-edit-users (addUser)="onAddUser($event)" (removeUser)="onRemoveUser($event)"></app-edit-users>
+</div>
