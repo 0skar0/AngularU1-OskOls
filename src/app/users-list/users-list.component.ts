@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class UsersListComponent implements OnInit {
 
-  @Input() textColor: boolean;
+  textColor: boolean;
   @Input() users: string[];
   constructor() { }
 

@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard.component.css']
 })
 
-//Sparar en array med alla users som skickas in
+//Sparar en egenskap som en array med alla users som skickas in
 export class DashboardComponent implements OnInit {
   userList: string[] = ["John Deere"];
 

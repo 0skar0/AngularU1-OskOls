@@ -5,6 +5,8 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: './user-list-item.component.html',
   styleUrls: ['./user-list-item.component.css']
 })
+
+// tar emot inputs från users-list 
 export class UserListItemComponent implements OnInit {
 
   @Input() users: string[];

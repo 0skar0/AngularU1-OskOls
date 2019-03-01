@@ -6,6 +6,7 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./edit-users.component.css']
 })
 
+//Skickar outputs till sin förälder.
 export class EditUsersComponent implements OnInit {
   userInput:string = '';
   @Output() addUser = new EventEmitter<string>();
