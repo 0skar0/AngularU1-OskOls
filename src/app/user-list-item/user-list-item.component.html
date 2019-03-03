@@ -1,5 +1,7 @@
 
-<!-- Angulars "*ngFor" loopar genom users och skriver ut alla users i {{user}} -->
+<!-- Angulars "*ngFor" loopar genom users och skriver ut alla users i {{user}}
+ beroende på om textColor är sann eller falsk ändras färgen på fonten.
+ -->
 <li *ngFor="let user of users" class="list-group-item m-1" [style.color]="textColor ? 'black' : 'blue'">
   {{user}}
 
